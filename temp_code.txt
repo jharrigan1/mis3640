@@ -1,0 +1,48 @@
+n = 100
+n+100
+200
+
+a =123
+a =abc
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'abc' is not defined
+a= "ABC"
+print (a)
+ABC
+x = 10
+x = x+2
+x
+12
+a = 'ABC'
+b = a
+a = 'XYZ'
+print (b)
+ABC
+print (a)
+XYZ
+'2'-'2'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+'EU' - 'Great Britain'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+first_name = 'John'
+last_name = 'Lennon'
+first_name+last_name
+'JohnLennon'
+
+first_name + " " +last_name
+'John Lennon'
+
+print('Naah, na na nanana naah, nanana naah, hey Jude. ' * 10)
+
+print('Hello, %s' %, 'first_name')
+
+print('Today is %2d-%02d.'% (9, 6))
+
+minute = 45 = current time
+#compute the percentage of the hour that has elapsed
+percentage = (minute * 100) / 60

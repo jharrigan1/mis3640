@@ -1,0 +1,8 @@
+def my_abs(n):
+    if isinstance(n, int) or isinstance(n, float):
+        if n >= 0:
+            return n
+        else:
+            return -n
+    else:
+        print('invalid value')
